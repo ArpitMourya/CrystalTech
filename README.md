@@ -14,7 +14,9 @@ This game is aimed to distroy all the Asteroids comming in the way of you sapace
 To play this game with you hands you just have to learn two gestures.
 see turtorial vedio ...
 
-[![Tutorial(https://img.shields.io/badge/Tutorial-How_To_use-green.svg)](https://www.linkedin.com/posts/arpit-mourya-068222260_hey-there-i-have-some-awesome-news-for-activity-7089540995402375168-3_OP?utm_source=share&utm_medium=member_desktop)
+[![MIT License](https://img.shields.io/badge/Tutorial-How_To_use-green.svg)](https://www.linkedin.com/posts/arpit-mourya-068222260_hi-connections-i-am-happy-to-share-my-activity-7155569964505088000-UFad?utm_source=share&utm_medium=member_desktop)
+
+
 
 1. To Move Right
 

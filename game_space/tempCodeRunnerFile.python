@@ -1,0 +1,37 @@
+import cv2
+import mediapipe as mp
+
+# Load the Objectron module
+mp_objectron = mp.solutions.objectron
+
+# Create a VideoCapture object to read from the webcam
+cap = cv2.VideoCapture(0)
+
+# Create an Objectron object
+objectron = mp_objectron.Objectron()
+
+while True:
+    # Read frame from the webcam
+    ret, frame = cap.read()
+
+    # Convert the frame to RGB
+    frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+    # Process the frame with Objectron
+    results = objectron.process(frame_rgb)
+
+    # Draw the 3D bounding box on the frame
+    if results.detected_objects:
+        for detected_object in results.detected_objects:
+            mp_objectron.draw_landmarks(frame, detected_object.landmarks_2d)
+
+    # Show the frame
+    cv2.imshow('Object Detection', frame)
+
+    # Break the loop if 'q' is pressed
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Release the VideoCapture object and close the windows
+cap.release()
+cv2.destroyAllWindows()

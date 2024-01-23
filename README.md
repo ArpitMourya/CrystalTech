@@ -15,13 +15,15 @@ To play this game with you hands you just have to learn two gestures.
 
 1. To Move Right
 
-![Screenshot 2024-01-23 154945](https://github.com/ArpitMourya/CrystalTech/assets/99241859/c7a1ecc4-62cb-40db-880e-034f55a5a983)
+![Screenshot 2024-01-23 154945](https://github.com/ArpitMourya/CrystalTech/assets/99241859/0c011928-cb9f-4f0c-85fa-cb02fb571e40)
 
-2. To MOve
-3. 
-![Screenshot 2024-01-23 155018](https://github.com/ArpitMourya/CrystalTech/assets/99241859/25c83c20-43da-454a-be2a-59f91c399aee)
 
- left
+2. To Move
+
+
+![Screenshot 2024-01-23 155018](https://github.com/ArpitMourya/CrystalTech/assets/99241859/e1d3f80c-8284-42c3-9050-b21d1085561a)
+
+
 
 ## Authors
 
